@@ -1,7 +1,7 @@
 {
-  "name": "optionflow-nse-proxy",
+  "name": "optionflow-angelone-proxy",
   "version": "1.0.0",
-  "description": "Middleman server that fetches NSE option chain data for OptionFlow",
+  "description": "Middleman server that logs into Angel One SmartAPI and serves live option chain data for OptionFlow",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "otplib": "12.0.1"
   }
 }
